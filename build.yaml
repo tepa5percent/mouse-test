@@ -22,6 +22,3 @@ include:
     shield: mouse_test
   - board: seeeduino_xiao_ble
     shield: settings_reset
-  - board: seeeduino_xiao_ble
-    shield: mouse_test
-    snippet: zmk-usb-logging
