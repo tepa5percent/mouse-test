@@ -69,14 +69,14 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         // duplex = <2048>; // required by 3-wire spi
-
+        
         /*   optional features   */
         scroll-layers = <1 2>;
         snipe-layers = <5>;
+         y-input-code = <INPUT_REL_WHEEL>;
         //automouse-layer = <2>;
     };
 };
-
 / {
   trackball_listener {
     compatible = "zmk,input-listener";
