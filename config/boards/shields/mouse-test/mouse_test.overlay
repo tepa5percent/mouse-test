@@ -73,7 +73,7 @@
         /*   optional features   */
         scroll-layers = <1 2>;
         snipe-layers = <5>;
-         y-input-code = <INPUT_REL_WHEEL>;
+         //y-input-code = <INPUT_REL_WHEEL>;
         //automouse-layer = <2>;
     };
 };
