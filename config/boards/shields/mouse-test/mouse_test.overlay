@@ -69,7 +69,7 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         //cpi = <3200>;
-        evt-type = <INPUT_EV_REL>;
+        //evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         // duplex = <2048>; // required by 3-wire spi
