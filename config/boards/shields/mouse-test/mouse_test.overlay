@@ -75,7 +75,7 @@
         // duplex = <2048>; // required by 3-wire spi
         //y-input-code = <INPUT_REL_WHEEL>;
         /*   optional features   */
-        //scroll-layers = <1 2>;
+        scroll-layers = <1 2>;
         //snipe-layers = <5>;
         //y-input-code = <INPUT_REL_WHEEL>;
         //automouse-layer = <2>;
